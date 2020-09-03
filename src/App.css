@@ -1,5 +1,3 @@
-
-
 .navbar {
     background-color: #000;
     color: #fff;
@@ -11,10 +9,22 @@
     background-color: rgb(43, 43, 43);
     height: 100vh;
     border-top: 1px rgb(73, 73, 73) solid;
+}
+/* 
+.project-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
 
+} 
+
+ .modal-button {
+    height: fit-content;
 }
 
-.project {
-    width: 20vw;
-    height: 20vh;
-}
+ .project {
+    width: 50vw;
+    height: 50vh;
+} */
+
