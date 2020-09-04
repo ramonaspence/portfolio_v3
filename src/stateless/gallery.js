@@ -1,114 +1,120 @@
 import React, {Component} from 'react';
 import '../App.css'
 
+import pro from '../media/prostores3.png'
+import img from '../media/chefs2.png'
 
 class Gallery extends Component {
     render() {
         return(
             <main className="col-md-12 col gallery-main">
-            
-            <div className="project-container">
+                <div className="project-container">
 
-            <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#projectOne">
-            Launch demo modal
-            </button>
-            <div className="modal fade" id="projectOne" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog model-dialog-centered">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div className="modal-body">
-                            app description here + github links
-                        </div>
-                        <div className="modal-footer">
-                                footer
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                Close
-                            </button>
+                    <div className="modal-button">
+                        <a className="" type="button" data-toggle="modal" data-target="#projectOne" href="" alt="" >
+
+                            <div className="modal-cover">
+                                <img className="modal-image" src={img} alt="" />
+                            </div>
+                        </a>
+                            <div className='project-footer'>
+                                <a href="https://github.com/ramonaspence/chefs-notebook" alt=""><i class="fab fa-github"></i></a>
+                                <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
+                            </div>
                             
+                    </div>
+
+                        <a className="modal-button" type="button" data-toggle="modal" data-target="#projectOne" href="" alt="" >
+                                
+                            <div className="modal-cover">   
+                                <img className="modal-image" src={pro} alt="" />
+                            </div>
+
+                            <div className='project-footer'>
+                                <i class="fab fa-github"></i><i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+
+                        <a className="modal-button" type="button" data-toggle="modal" data-target="#projectOne" href="" alt="" >
+
+                            <div className="modal-cover">
+                                <img className="modal-image" src={pro} alt="" />
+                            </div>
+
+                            <div className='project-footer'>
+                               <a href="https://github.com/ramonaspence/proforma_landing_page" alt=""><i class="fab fa-github"></i></a> 
+                               <a href="https://prostores.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </a>
+                </div>
+
+                <div className="modal project fade" id="project3" tabIndex="-1" aria-labelledby="projectThreeLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered">
+                            <div className="modal-content project">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="projectThreeLabel">Modal title</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    app description here + github links
+                                </div>
+                                <div className="modal-footer">
+
+                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <button type="button" className="btn btn-primary modal-button" data-toggle="modal" data-target="#project2">
-            Launch demo modal
-            </button>
-            <div className="modal project fade" id="project2" tabIndex="-1" aria-labelledby="projectTwoLabel" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered">
-                    <div className="modal-content project">
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="projectTwoLabel">Modal title</h5>
-                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div className="modal-body">
-                            app description here + github links
-                        </div>
-                        <div className="modal-footer">
+                <div className="modal project fade" id="project2" tabIndex="-1" aria-labelledby="projectTwoLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered">
+                            <div className="modal-content project">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="projectTwoLabel">Modal title</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    app description here + github links
+                                </div>
+                                <div className="modal-footer">
 
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                Close
-                            </button>
-                            
+                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <button type="button" className="btn btn-primary modal-button" data-toggle="modal" data-target="#project3">
-            Launch demo modal
-            </button>
-            <div className="modal project fade" id="project3" tabIndex="-1" aria-labelledby="projectThreeLabel" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered">
-                    <div className="modal-content project">
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="projectThreeLabel">Modal title</h5>
-                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div className="modal-body">
-                            app description here + github links
-                        </div>
-                        <div className="modal-footer">
-
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                            
+                <div className="modal fade" id="projectOne" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog model-dialog-centered">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    app description here + github links
+                                </div>
+                                <div className="modal-footer">
+                                        footer
+                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </button>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            </div>
             </main>
-
-
-           
-            //     <div className="modal" tabIndex="-1">
-            //         <div className="modal-dialog">
-            //             <div className="modal-content project">
-            //                 <div className="modal-header">
-            //                     <h5 className="modal-title">Modal Title</h5>
-            //                     <button className='close' type='button' data-dismiss="modal" aria-label="Close">
-            //                         <span aria-hidden="true">&times;</span>
-            //                     </button>
-            //                 </div>
-            //                 <div className="modal-body">
-            //                     <p>Modal Body</p>
-            //                 </div>
-            //                 <div className="modal-footer">
-            //                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-            //                     <button type="button" className="btn btn-primary">Save changes</button>
-            //                 </div>
-            //             </div>
-            //         </div>
-            //     </div>
-            // </main>
         )
     }
 }

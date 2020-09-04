@@ -8,7 +8,7 @@ import Nav from './nav.js';
 class Portfolio extends Component {
     render() {
         return(
-            <div className="container-fluid">
+            <body className="container-fluid">
                 <div className="row">
                     <Nav />
                 </div>
@@ -16,7 +16,7 @@ class Portfolio extends Component {
                 <div className="row">
                     <Gallery />
                 </div>
-            </div>
+            </body>
         )
     }
 }

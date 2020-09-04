@@ -1,30 +1,111 @@
+body {
+    color: white;
+}
+
+a, a:hover {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+}
+
 .navbar {
     background-color: #000;
     color: #fff;
-    border-bottom: 1px rgb(58, 58, 58) solid;
-    height: 4rem;
+    border-bottom: 1px rgb(40, 40, 40) solid;
+    height: 3rem;
+}
+
+.nav-icons i {
+    margin: .5rem;
 }
 
 .gallery-main {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(49, 49, 49);
     height: 100vh;
     border-top: 1px rgb(73, 73, 73) solid;
 }
-/* 
-.project-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
 
-} 
-
- .modal-button {
-    height: fit-content;
+.project-container:first-child {
+    margin-left: 2rem;
 }
 
- .project {
-    width: 50vw;
-    height: 50vh;
-} */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project-footer {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+.project-footer i {
+    margin: .25rem .5rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.project-footer i:hover {
+    color: rgba(255,255,255,.5)
+}
+
+.modal-button {
+    margin-right: 2.5rem;
+    margin-top: 5rem;
+    width: 22.5%;
+    height: 22.5%;
+    box-shadow: 0 0 5px 1px black;
+   
+}
+
+.modal-button:first-child {
+    margin-left: 2rem;
+}
+
+
+.modal-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 5px black solid;
+
+   
+}
+
+.modal-cover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.modal-cover:hover:after {
+    content:"";
+    background-color: rgba(0,0,0,.3);
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0
+    
+    
+}
+
+.modal-cover:hover .fa-expand-alt {
+    display: show;
+    position: relative;
+    top: 2rem;
+    left: 17rem;
+    z-index: 2;
+    font-size: 1.5rem;
+    color: black;
+}
+
+body.modal-open .project-container  {
+    filter: blur(15px);
+    /* image of project in background, blurred, when project's modal is open */
+}
 
