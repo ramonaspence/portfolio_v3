@@ -71,9 +71,8 @@ class Gallery extends Component {
                                     app description here + github links
                                 </div>
                                 <div className="modal-footer">
-
-                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                                     
+                                                                        
                                 </div>
                             </div>
                         </div>
@@ -95,10 +94,7 @@ class Gallery extends Component {
                                 <div className="modal-footer">
                                     <a href="https://github.com/ramonaspence/proforma_landing_page" alt=""><i class="fab fa-github"></i></a> 
                                     <a href="https://prostores.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
-                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </button>
-                                    
+                    
                                 </div>
                             </div>
                         </div>
@@ -121,9 +117,6 @@ class Gallery extends Component {
                                 <div className="modal-footer">
                                 <a href="https://github.com/ramonaspence/chefs-notebook" alt=""><i class="fab fa-github"></i></a>
                                 <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
-                                    <button type="button" className="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </button>
                                     
                                 </div>
                             </div>

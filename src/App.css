@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oxygen&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -147,10 +147,24 @@ body.modal-open .project-container  {
     /* image of project in background, blurred, when project's modal is open */
 }
 
-.modal-dialog {
-    color: black;
+.modal-title {
+    font-family: 'Roboto';
 }
 
-.modal-footer i {
+.modal-dialog {
     color: black;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.modal-footer a {
+    color: black;
+    font-size: 1.2rem;
+    padding-right: .5rem;
 }
