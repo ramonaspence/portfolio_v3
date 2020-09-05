@@ -11,7 +11,15 @@ class Nav extends Component {
 
                     <a href="https://www.linkedin.com/in/ramona-spence-she-her-ba606a18a/" alt=""><i class="fab fa-linkedin-in"></i> </a>
 
+                    <a href="https://twitter.com/RamonaSpence16" alt="" ><i class="fab fa-twitter"></i></a>
+
                 </div>
+
+                <div className="nav-text">
+                    <span>Ramona E.J. Spence</span>
+                    <span>ramonaejspence@gmail.com</span>
+                </div>
+
             </nav>
         )
     }
