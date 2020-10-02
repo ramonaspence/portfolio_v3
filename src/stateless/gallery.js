@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css'
 
+import rail from '../media/rail.png'
 import pro from '../media/prostores3.png'
 import img from '../media/chefs2.png'
 
@@ -47,11 +48,11 @@ class Gallery extends Component {
 
                             <div className="modal-cover">
                                 <i class="fas fa-expand-alt"></i>
-                                <img className="modal-image" src={pro} alt="" />
+                                <img className="modal-image" src={rail} alt="" />
                             </div>
 
                             <div className='modal-card-footer'>
-                               <a href="https://github.com/ramonaspence/proforma_landing_page" alt=""><i class="fab fa-github"></i></a> 
+                               <a href="https://github.com/ramonaspence/rails_ice_cream_menu" alt=""><i class="fab fa-github"></i></a> 
                                <a href="https://prostores.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
                             </div>
                         </a>
@@ -62,7 +63,7 @@ class Gallery extends Component {
                         <div className="modal-dialog modal-dialog-centered">
                             <div className="modal-content project">
                                 <div className="modal-header">
-                                    <h5 className="modal-title" id="projectThreeLabel">Modal title</h5>
+                                    <h5 className="modal-title" id="projectThreeLabel">Rails Project</h5>
                                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
