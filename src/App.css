@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oxygen&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   font-family: 'Roboto', sans-serif;
+}
+
+.gallery {
+    height: fit-content;
+}
+
+a, a:hover {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(235,235,235);
+}
+
+/****** begin navbar *******/
+
+.navbar {
+    background-color: #000;
+    color: rgb(235,235,235);;
+    border-bottom: 1px rgb(40, 40, 40) solid;
+    height: 4rem;
+}
+
+.nav-icons i {
+    margin: .5rem;
+    font-size: 1.25rem;
+}
+
+.nav-icons i:hover {
+    color: rgba(255,255,255,.5)
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxygen';
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/******* begin main body *********/
+
+.gallery-main {
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    border-top: 1px rgb(73, 73, 73) solid;
+    padding-bottom: 5rem;
+    
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-container:first-child {
+    margin-left: 2rem;
+}
+
+/******** begin modals *********/
+
+.modal-card {
+    margin-right: 2.5rem;
+    margin-top: 5rem;
+    padding: 0;
+    width: 19.5rem;
+    box-shadow: 0 0 5px 1px black;
+}
+
+.modal-card:first-child {
+    margin-left: 2rem;
+}
+
+.modal-image {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    border-bottom: 5px black solid;
+    zoom: 100%;
+}
+
+.modal-cover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.modal-cover:hover img {
+    filter: blur(1px);
+}
+
+
+.modal-cover:hover:after {
+    content:"";
+    background-color: rgba(0,0,0,.3);
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    
+}
+
+.modal-cover i {
+    position: absolute;
+    top: .5rem;
+    left: 17rem;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: transparent;
+}
+
+.modal-cover:hover i {
+    display: show;
+    position: absolute;
+    top: .5rem;
+    left: 17rem;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-card-footer {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    color: rgb(235,235,235);;
+}
+
+.modal-card-footer i {
+    margin: .5rem .5rem;
+    font-size: 1.1rem;
+    color: rgb(235,235,235);;
+}
+
+.modal-card-footer i:hover {
+    color: rgba(255,255,255,.5)
+}
+
+/********** begin modal window ********/
+
+body.modal-open .project-container  {
+    /* background-image: url('./media/expand2.png');
+    filter: blur(10px); */
+    /* image of project in background, blurred, when project's modal is open */
+}
+
+.modal-title {
+    font-family: 'Roboto';
+}
+
+.modal-dialog {
+    color: black;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.modal-footer a {
+    color: black;
+    font-size: 1.2rem;
+    padding-right: .5rem;
+}
