@@ -25,7 +25,7 @@ class Nav extends Component {
                     <span>Ramona E.J. Spence</span>
                     <span>ramonaejspence@gmail.com</span>
                 </div>
-
+                
             </nav>
         )
     }

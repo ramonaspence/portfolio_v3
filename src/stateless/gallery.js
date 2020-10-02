@@ -14,7 +14,7 @@ class Gallery extends Component {
                 <div className="project-container">
 
                     <div className="modal-card">
-                        <a className="" type="button" data-toggle="modal" data-target="#project1" href="" alt="" >
+                        <a className="" type="button" data-toggle="modal" data-target="#project1" href="#" alt="#" >
 
                             <div className="modal-cover">
                             <i class="fas fa-expand-alt"></i>
@@ -30,7 +30,7 @@ class Gallery extends Component {
                     </div>
 
                     <div className="modal-card">
-                        <a className="" type="button" data-toggle="modal" data-target="#project2" href="" alt="" >
+                        <a className="" type="button" data-toggle="modal" data-target="#project2" href="#" alt="" >
                                 
                             <div className="modal-cover">   
                                 <i class="fas fa-expand-alt"></i>
@@ -44,7 +44,7 @@ class Gallery extends Component {
                     </div>
 
                     <div className="modal-card">
-                        <a className="" type="button" data-toggle="modal" data-target="#project3" href="" alt="" >
+                        <a className="" type="button" data-toggle="modal" data-target="#project3" href="#" alt="" >
 
                             <div className="modal-cover">
                                 <i class="fas fa-expand-alt"></i>
