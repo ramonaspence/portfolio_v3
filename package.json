@@ -1,6 +1,6 @@
 {
   "name": "static",
-  "homepage": "https://ramonaspence.github.io/portfolio_v3",
+  // "homepage": "https://ramonaspence.github.io/portfolio_v3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
