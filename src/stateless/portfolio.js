@@ -9,7 +9,7 @@ class Portfolio extends Component {
         return(
             <body className="container-fluid">
 
-                <div className="row nav">
+                <div className="row">
                     <Nav />
                 </div>
 
