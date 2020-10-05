@@ -17,14 +17,14 @@ class Gallery extends Component {
                         <a className="" type="button" data-toggle="modal" data-target="#project1" href="#" alt="#" >
 
                             <div className="modal-cover">
-                            <i class="fas fa-expand-alt"></i>
+                            
                                 <img className="modal-image" src={img} alt="" />
-                               
+                                <i class="fas fa-expand-alt"></i>
                             </div>
                         </a>
                             <div className='modal-card-footer'>
-                                <a href="https://github.com/ramonaspence/chefs-notebook" alt="" ><i class="fab fa-github"></i></a>
-                                <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt=""><i className="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/ramonaspence/chefs-notebook" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                             
                     </div>
@@ -36,26 +36,28 @@ class Gallery extends Component {
                                 <i class="fas fa-expand-alt"></i>
                                 <img className="modal-image" src={pro} alt="" />
                             </div>
-
-                            <div className='modal-card-footer'>
-                                <i class="fab fa-github"></i><i class="fas fa-external-link-alt"></i>
-                            </div>
                         </a>
+                            <div className='modal-card-footer'>
+                                <a href="https://github.com/ramonaspence/proforma_landing_page/" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                <a href="https://prostores.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                      
                     </div>
 
                     <div className="modal-card">
                         <a className="" type="button" data-toggle="modal" data-target="#project3" href="#" alt="" >
 
                             <div className="modal-cover">
-                                <i class="fas fa-expand-alt"></i>
+                               
                                 <img className="modal-image" src={rail} alt="" />
-                            </div>
-
-                            <div className='modal-card-footer'>
-                               <a href="https://github.com/ramonaspence/rails_ice_cream_menu" alt=""><i class="fab fa-github"></i></a> 
-                               <a href="https://prostores.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
+                                <i class="fas fa-expand-alt"></i>
                             </div>
                         </a>
+                            <div className='modal-card-footer'>
+                               <a href="https://github.com/ramonaspence/rails_ice_cream_menu" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a> 
+                               <a href="https://prostores.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        
                     </div>
                 </div>
 
@@ -72,8 +74,8 @@ class Gallery extends Component {
                                     app description here + github links
                                 </div>
                                 <div className="modal-footer">
-                                    
-                                                                        
+                                    <i class="fab fa-github"></i>
+                                    <i class="fas fa-external-link-alt"></i>                                          
                                 </div>
                             </div>
                         </div>
@@ -93,8 +95,8 @@ class Gallery extends Component {
                                     The form is used to record contact information to a CSV file, then it's uploaded to the client's Google Drive via Google Drive's API.
                                 </div>
                                 <div className="modal-footer">
-                                    <a href="https://github.com/ramonaspence/proforma_landing_page" alt=""><i class="fab fa-github"></i></a> 
-                                    <a href="https://prostores.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="https://github.com/ramonaspence/proforma_landing_page" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a> 
+                                    <a href="https://prostores.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
                     
                                 </div>
                             </div>
@@ -116,8 +118,8 @@ class Gallery extends Component {
                                     </span>
                                 </div>
                                 <div className="modal-footer">
-                                <a href="https://github.com/ramonaspence/chefs-notebook" alt=""><i class="fab fa-github"></i></a>
-                                <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt=""><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/ramonaspence/chefs-notebook" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
                                     
                                 </div>
                             </div>

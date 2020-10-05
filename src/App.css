@@ -105,12 +105,13 @@ a, a:hover {
 }
 
 .modal-cover i {
+    color: transparent;
     position: absolute;
     top: .5rem;
     left: 17rem;
-    z-index: 2;
+    z-index: 2; 
     font-size: 1.3rem;
-    color: transparent;
+    
 }
 
 .modal-cover:hover i {
