@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 
+import About from './aboutMe.js';
 import Gallery from './gallery.js';
 import Nav from './nav.js';
 
@@ -15,6 +16,10 @@ class Portfolio extends Component {
 
                 <div className="row gallery">
                     <Gallery />
+                </div>
+
+                <div className="row">
+                    <About />
                 </div>
 
             </body>

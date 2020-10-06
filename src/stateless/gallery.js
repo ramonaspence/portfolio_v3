@@ -15,9 +15,7 @@ class Gallery extends Component {
 
                     <div className="modal-card">
                         <button className="modal-button" data-toggle="modal" data-target="#project1">
-
                             <div className="modal-cover">
-                            
                                 <img className="modal-image" src={img} alt="" />
                                 <i class="fas fa-expand-alt"></i>
                             </div>
@@ -26,7 +24,6 @@ class Gallery extends Component {
                                 <a href="https://github.com/ramonaspence/chefs-notebook" alt="" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                                 <a href="https://ccs-final-project-ramonaspence.herokuapp.com" alt="" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>
                             </div>
-                            
                     </div>
 
                     <div className="modal-card">

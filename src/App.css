@@ -109,7 +109,6 @@ a, a:hover {
 .modal-cover:hover:after {
     content:"";
     background-color: rgba(0,0,0,.3);
-    transition: all 1s ease;
     position: absolute; 
     top: 0; 
     left: 0; 
