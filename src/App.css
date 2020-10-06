@@ -63,6 +63,7 @@ a, a:hover {
 
 /******** begin modals *********/
 
+
 .modal-card {
     position: relative;
     margin-right: 2.5rem;
@@ -70,6 +71,18 @@ a, a:hover {
     padding: 0;
     width: 19.5rem;
     box-shadow: 0 0 5px 1px black;
+}
+
+.modal-button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.modal-button:hover {
+    outline: none;
+    outline-color: black;
+
 }
 
 .modal-image {

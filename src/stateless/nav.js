@@ -7,15 +7,15 @@ class Nav extends Component {
         return(
             <nav className="col-12 navbar">
                 <div className="nav-icons">
-                    <a href="https://github.com/ramonaspence" alt="" target="_blank">
+                    <a href="https://github.com/ramonaspence" alt="" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-github"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/ramona-spence-she-her-ba606a18a/" alt="" target="_blank">
+                    <a href="https://www.linkedin.com/in/ramona-spence-she-her-ba606a18a/" alt="" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin-in"></i> 
                     </a>
 
-                    <a href="https://twitter.com/RamonaSpence16" alt="" target="_blank">
+                    <a href="https://twitter.com/RamonaSpence16" alt="" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-twitter"></i>
                     </a>
 
