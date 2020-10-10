@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 
+import Contact from './contactMe.js';
 import About from './aboutMe.js';
 import Gallery from './gallery.js';
 import Nav from './nav.js';
@@ -18,8 +19,9 @@ class Portfolio extends Component {
                     <Gallery />
                 </div>
 
-                <div className="row">
+                <div className="row about-contact">
                     <About />
+                    <Contact />
                 </div>
 
             </body>

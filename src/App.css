@@ -48,10 +48,9 @@ a, a:hover {
 /******* begin main body *********/
 
 .gallery-main {
-    /* background-color: rgb(49, 49, 49); */
-    height: 100vh;
+    height: fit-content;
     border-top: 1px rgb(73, 73, 73) solid;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     
 }
 
@@ -182,4 +181,56 @@ body.modal-open .modal-content {
     color: black;
     font-size: 1.2rem;
     padding-right: .5rem;
+}
+
+
+/************* BEGIN ABOUT ME************/
+
+.about-contact {
+   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Oxygen';
+    letter-spacing: 1px;
+    color: rgb(235,235,235);
+    margin: 2rem;
+}
+
+.about-me {
+    line-height: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(235,235,235);
+}
+
+.contact-form input {
+    border: none;
+    border-bottom: solid 1.5px black;
+    background: transparent;
+    color: rgb(235,235,235);
+    margin-left: 1rem;
+    width: 15rem;
+}
+
+.contact-form input:focus {
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 4rem;
+    width: 25rem;
+    border: none;
+    border-bottom: solid 1.5px black;
+    background: transparent;
+    color: rgb(235,235,235);
+    margin-left: 1rem;
+}
+
+.contact-form textarea:focus {
+    outline: none;
 }
