@@ -206,11 +206,17 @@ body.modal-open .modal-content {
     display: flex;
     flex-direction: column;
     color: rgb(235,235,235);
+    
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form input {
     border: none;
-    border-bottom: solid 1.5px black;
+    border-bottom: solid 1.5px rgb(235,235,235);
     background: transparent;
     color: rgb(235,235,235);
     margin-left: 1rem;
@@ -225,10 +231,11 @@ body.modal-open .modal-content {
     height: 4rem;
     width: 25rem;
     border: none;
-    border-bottom: solid 1.5px black;
+    border-bottom: solid 1.5px rgb(235,235,235);
     background: transparent;
     color: rgb(235,235,235);
     margin-left: 1rem;
+
 }
 
 .contact-form textarea:focus {
