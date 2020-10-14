@@ -6,8 +6,9 @@
 
 body {
    height: 100vh;
-   background-color: rgb(49, 49, 49);
+   background-color: rgb(1, 1, 43);
    font-family: 'Roboto', sans-serif;
+  
 }
 
 a, a:hover {
@@ -22,15 +23,19 @@ a, a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #000;
-    color: rgb(235,235,235);;
-    border-bottom: 1px rgb(40, 40, 40) solid;
+    background-color:  rgb(95, 30, 0);
+    border-bottom: 1px rgb(73, 73, 73) solid;
     height: fit-content;
+}
+
+.nav-icons {
+    margin-left: 1rem;
 }
 
 .nav-icons i {
     margin: .5rem;
     font-size: 1.25rem;
+    
 }
 
 .nav-icons i:hover {
@@ -45,11 +50,45 @@ a, a:hover {
     letter-spacing: 2px;
 }
 
+/*********** about **********/
+
+
+.about-me {
+    padding: 0;
+    color: rgb(235,235,235);
+}
+
+.about-me p {
+    margin: 2rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Oxygen';
+    letter-spacing: 1px;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 30rem;
+    
+}
+
+.img-wrapper img {
+    
+    width: 120vw;
+    position: relative;
+    bottom: 10rem;
+    right: 10rem; 
+   
+} 
+
 /******* begin main body *********/
 
 .gallery-main {
     height: fit-content;
-    border-top: 1px rgb(73, 73, 73) solid;
+    
     padding-bottom: 3rem;
     
 }
@@ -184,28 +223,29 @@ body.modal-open .modal-content {
 }
 
 
-/************* BEGIN ABOUT ME************/
+/************* BEGIN FOOTER************/
 
-.about-contact {
+.footer {
    
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    background-color: rgb(95, 30, 0);
+    border-top: 1px rgb(73, 73, 73) solid;
     font-size: 1rem;
     font-family: 'Oxygen';
     letter-spacing: 1px;
     color: rgb(235,235,235);
-    margin: 2rem;
-}
-
-.about-me {
-    line-height: 1.5rem;
+   
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     color: rgb(235,235,235);
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     
 }
 

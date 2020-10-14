@@ -15,12 +15,16 @@ class Portfolio extends Component {
                     <Nav />
                 </div>
 
+                <div className="row about">
+                    <About />    
+                </div> 
+
                 <div className="row gallery">
                     <Gallery />
                 </div>
 
-                <div className="row about-contact">
-                    <About />
+                <div className="row footer">
+                    
                     <Contact />
                 </div>
 
