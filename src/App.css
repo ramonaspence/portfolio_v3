@@ -23,6 +23,7 @@ a, a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: rgb(235,235,235);
     background-color:  rgb(95, 30, 0);
     border-bottom: 1px rgb(73, 73, 73) solid;
     height: fit-content;
@@ -56,16 +57,18 @@ a, a:hover {
 .about-me {
     padding: 0;
     color: rgb(235,235,235);
+    
 }
 
 .about-me p {
-    margin: 2rem;
-    margin-left: 1rem;
-    margin-right: 5rem;
+    width: 50vw;
+    margin: 5rem 3rem;
     line-height: 1.5rem;
     font-size: 1rem;
+    font-weight: bold;
     font-family: 'Oxygen';
     letter-spacing: 1px;
+    text-align: justify;
 }
 
 .img-wrapper {
@@ -76,13 +79,33 @@ a, a:hover {
 }
 
 .img-wrapper img {
-    
     width: 120vw;
-    position: relative;
-    bottom: 10rem;
-    right: 10rem; 
-   
+
 } 
+
+.about-ccs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+
+}
+
+.about-ccs img {
+    height: 25rem;
+    margin: 5rem 2rem;
+    
+}
+
+
+.about-ccs p {
+    margin: 5rem 2rem;
+    text-align: right;
+    color: rgb(235,235,235);
+    font-weight: bold;
+    width: 50vw;
+
+}
+
 
 /******* begin main body *********/
 

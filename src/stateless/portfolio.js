@@ -19,9 +19,9 @@ class Portfolio extends Component {
                     <About />    
                 </div> 
 
-                <div className="row gallery">
+                {/* <div className="row gallery">
                     <Gallery />
-                </div>
+                </div> */}
 
                 <div className="row footer">
                     
